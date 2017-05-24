@@ -1,43 +1,54 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
 blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+*{
+	box-sizing: border-box; /* com esta configuração o width 100% vai incluir os padding, evitando assim a barra de rolagem horizontal */
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+body{
+	background-color: #eaeaea;
+}
+
+.slot-logo{
+	width: 100%;
+}
+.logo{	
+	width: 50%;	
+}
+
+.slot-aviso{	
+	margin: auto;	
+	width: 50%;	
+	background-color: #3c3c3c; 
+	padding: 10px;	
+	margin-top: 5%;
+}
+
+.aviso{	
+	border: solid 2px;	
+	width: 100%;
+	padding: 20px;
+	font-size: 2em;
+	text-align: center;	
+	color: #b19b35;
+}
+
+.btn-comprar-ingresso{
+	font-size: 3.5em;
+	
+}
+
+.img-aviso{
+	width: 40%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
