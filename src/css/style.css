@@ -14,7 +14,16 @@ table {border-collapse: collapse; border-spacing: 0;}
 }
 
 body{
-	background-color: #eaeaea;
+	height: 100%;
+	width: 100%;
+	background: url(../img/fundo_carnaval.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: contain;
+    -o-background-size: cover;
+  	background-size: cover;					
+	position: fixed;
+	bottom: 0;
+	right: 0;
 }
 
 .slot-logo{
@@ -43,8 +52,41 @@ body{
 }
 
 .btn-comprar-ingresso{
-	font-size: 3.5em;
-	
+	/*font-size: 24px;*/
+	font-size: 1.5rem;
+	/*width: 100%;*/
+	background-color: #3B4FCF;
+	color: #fff;
+	padding: 10px;
+	align-items: center;
+	text-align: center;		
+	text-decoration: none;
+	margin: 5px;
+	margin-bottom: 25px;
+	border-radius: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	/*transition: all 0.6s;*/
+}
+.btn-comprar-ingresso:hover{
+	/*font-size: 24px;*/
+	font-size: 1.5rem;
+	/*width: 100%;*/
+	background-color: #fff;
+	color: #3B4FCF;
+	padding: 8px;
+	align-items: center;
+	text-align: center;		
+	text-decoration: none;
+	margin: 5px;
+	margin-bottom: 25px;
+	border:2px solid #3B4FCF;
+	border-radius: 22px;
+	/*transition: all 0.6s;*/
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .img-aviso{
