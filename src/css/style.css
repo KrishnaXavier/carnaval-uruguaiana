@@ -12,7 +12,6 @@ table {border-collapse: collapse; border-spacing: 0;}
 *{
 	box-sizing: border-box; /* com esta configuração o width 100% vai incluir os padding, evitando assim a barra de rolagem horizontal */
 }
-
 body{
 	height: 100%;
 	width: 100%;
@@ -54,7 +53,7 @@ body{
 .btn-comprar-ingresso{
 	/*font-size: 24px;*/
 	font-size: 1.5rem;
-	/*width: 100%;*/
+	width: 25%;
 	background-color: #613a0c;
 	color: #f0f2e5;
 	padding: 10px;
@@ -72,7 +71,7 @@ body{
 .btn-comprar-ingresso:hover{
 	/*font-size: 24px;*/
 	font-size: 1.5rem;
-	/*width: 100%;*/
+	width: 25%;
 	background-color: #f0f2e5;
 	color: #613a0c;
 	padding: 8px;
