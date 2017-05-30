@@ -23,6 +23,15 @@ body{
 	position: fixed !important;
 	bottom: 0 !important;
 	right: 0 !important;
+	margin: 0; 
+	padding: 0;
+}
+
+
+.conteudo{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
 }
 
 .slot-logo{
